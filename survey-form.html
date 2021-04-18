@@ -1,0 +1,48 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="main">
+  <div class="top"><h1 id="title">Cat's Survey Form</h1>
+  <p id="description">Thank you, human, for filling out our form. We're looking to understand more of your thoughts on our mandate, not that we care, we're just curious.</p></div>
+  <form id="survey-form">
+    <label class="big-label labels" id="name-label" for="name">Name
+      <input class="_input" id="name" type="text" name="name" placeholder="Write your name here" required>
+    </label>
+    <label class="big-label labels" id="email-label" for="email">E-mail
+      <input id="email" class="_input" type="email" name="email" placeholder="Write your email" required>  
+    </label>
+    <label class="big-label labels" id="number-label" for="number">Phone Number
+      <input class="_input" id="number" type="number" name="number" placeholder="Write your phone number" min="1" max="999999999">
+    </label>
+    <label class="big-label labels" id="dropdown-label" for="dropdown">How would you describe your experience with cats?
+      <select class="_input" id="dropdown" name="dropdown">
+        <option value="excelent">Excelent!</option>
+        <option value="better">Couldn't be better</option>
+        <option value="best">Best thing in my life</option>
+        <option value="stupid">I'm stupid and I don't like cats</option>
+    </select>
+    </label>
+    <fieldset class="_fieldset">
+      <legend class="big-label" id="radio-label" for="fixed">Are your cats fixed?</legend>
+      <label class="rb" for="radio-yes"><input id="radio-yes" type="radio" name="fixed" value="yes">Yes</label>
+      <label class="rb" for="radio-no"><input id="radio-no" type="radio" name="fixed" value="no">No</label>
+      <label class="rb" for="radio-soon"><input id="radio-soon" type="radio" name="fixed" value="soon">They'll be soon</label>
+      <label class="rb" for="radio-never"><input id="radio-never" type="radio" name="fixed" value="never">I'm not going to fix them</label>
+    </fieldset>
+    <fieldset class="_fieldset">
+      <legend class="big-label" id="cb-label" for="toys">What types of toys/utilery have you bought for your cats?</legend>
+      <label class="cb" for="cb-litter"><input id="cb-litter" type="checkbox" name="toys" value="litter">Litter</label>
+      <label class="cb" for="cb-treats"><input id="cb-treats" type="checkbox" name="toys" value="treats">Treats</label>
+      <label class="cb" for="cb-wet-food"><input id="cb-wet-food" type="checkbox" name="toys" value="wet-food">Wet food</label>
+      <label class="cb" for="cb-dry-food"><input id="cb-dry-food" type="checkbox" name="toys" value="dry-food">Dry food</label>
+      <label class="cb" for="cb-rod"><input id="cb-rod" type="checkbox" name="toys" value="rod">Fishing rod toy</label>
+      <label class="cb" for="cb-mouse"><input id="cb-mouse" type="checkbox" name="toys" value="mouse">Mouse toy</label>
+      <label class="cb" for="cb-laser"><input id="cb-laser" type="checkbox" name="toys" value="laser">Laser</label>
+      <label class="cb" for="cb-fish"><input id="cb-fish" type="checkbox" name="toys" value="fish">Floppy fish</label>
+      <label class="cb" for="cb-catnip"><input id="cb-catnip" type="checkbox" name="toys" value="catnip">Catnip</label>
+      <label class="cb" for="cb-scratch"><input id="cb-scratch" type="checkbox" name="toys" value="scratch">Scratching board/pole</label>
+    </fieldset>
+    <label class="big-label labels" for="textarea">Let us know why are you worthy of life:</label>
+    <textarea class="txt" id="textarea" name="textarea" rows="10%" cols="100%" placeholder="Write here why you think we should let you live longer"></textarea>
+    <input class="_submit" type="submit" name="submit" value="Submit" id="submit">
+  </form>
+</main>
