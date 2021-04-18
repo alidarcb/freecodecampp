@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap');
+:root{
+  font-family:"Arima Madurai",Roboto;
+}
+
+header{
+  padding: 25px 9%;
+  background-color: #BAE3E9;
+}
+h1, h2{
+  text-align: center;
+  font-weight: 900;
+}
+p{
+  text-align: justify;
+}
+ main{
+  padding: 15px 10%;
+   background-color:#F6FBFC;
+ }
+footer{
+  padding: 25px 9%;
+  background-color: #323d3f;
+  color:#bae3e9;
+  font-weight: 100;
+}
+ .footer{
+  text-align: center;
+}
+.quote{
+  text-align: center;
+  font-weight: 300;
+}
+a{
+  color: #E5F4F7;
+}
+img{
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+}
+figcaption{
+  text-align:center;
+  margin: 5px auto;
+}
+
+.life{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%,1fr));
+  grid-column-gap: 3em;
+}
