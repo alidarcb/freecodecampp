@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500&family=Satisfy&display=swap');
+
+.big-label, ._submit{
+  font-family:Satisfy, roboto;
+  font-size: 19px;
+}
+h1{
+  font-family:Satisfy, roboto;
+  font-size: 35px;
+  margin: 2% 0;
+}
+h1, p{
+  text-align: center;
+}
+label{
+  font-family:"Darker Grotesque", roboto;
+  font-size: 18px;
+}
+
+p{
+  font-family:"Darker Grotesque", roboto;
+  font-size: 21px;
+}
+.top{
+  background-color: RGBA(230, 204, 255,0.4);
+  padding: 1% 0;
+}
+
+main{
+  margin: 0 auto;
+  padding: 15px 25%;
+  background: #F2FCFC;
+}
+#survey-form{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #F2F2FC;
+  padding: 5%;
+}
+.rb, .cb{
+  padding: 1% 5%;
+  
+}
+
+._fieldset, ._input, .txt{
+  margin: 10px 0;
+  padding: 5px 0;
+  width: 100%;
+}
+
+._fieldset{
+  display:flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+._submit{
+  margin: 15px auto;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+}
+
